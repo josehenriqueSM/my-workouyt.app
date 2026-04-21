@@ -3,6 +3,6 @@ import "../global.css";
  
 export default function Layout() {
     return(
-        <Slot />
+        <Slot screenOptions={{headerShow: false}}/>
     )
 }
